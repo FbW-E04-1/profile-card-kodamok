@@ -5,72 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: black;
-    }
-
-    div {
-      /* position: relative; */
-      border: 0px solid rgb(255, 255, 255);
-      max-width: min-content;
-      margin: auto;
-      z-index: 0;
-    }
-
-    img {
-      margin-bottom: -4px;
-      width: 300px;
-      object-fit:fill;
-      object-position:center;
-
-      border: 3px solid red;
-    }
-
-    .rick {
-      position: absolute;
-
-      left: 58%;
-      top: 4%;
-      z-index:1;
-    }
-
-    p {
-      background-color: rgb(255, 255, 255);
-      color: rgb(255, 0, 0);
-      text-align: center;
-      width: 80px;
-      border: 2px solid red;
-      margin: auto;
-
-      opacity:75%;
-      border-radius: 20px;
-        
-    }
-
-    .sanchez {
-      position:absolute;
-
-      left: 60%;
-      top: 8%;
-      z-index:1;
-    }
-  </style>
-
   <body>
-    <div class="container">
-      <div>
-        <img src="./rick-sanchez.jpg" alt="ricksanchez" />
-      </div>
+    <div class="card">
+      <img src="rick-sanchez.jpg" />
 
-      <div class="rick"><p>Rick</p></div>
-      <div class="sanchez"><p>Sanchez</p></div>
+      <p id="first-name">Rick</p>
+      <p id="last-name">Sanchez</p>
     </div>
   </body>
 </html>

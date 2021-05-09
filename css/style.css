@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+div.card {
+  position: relative;
+  width: 75vmin;
+  border: 1vmin solid white;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  vertical-align: top; /* gets rid of the gap at the bottom */
+}
+
+p {
+  position: absolute;
+  font-size: 3vmin;
+  margin: 0;
+  border: 0.3em solid green;
+  border-radius: 2em;
+  padding: 0.5em;
+  width: 4em;
+  right: -2em;
+  text-align: center;
+  background-color: white;
+}
+
+#first-name {
+  top: 2vmin;
+}
+
+#last-name {
+  top: 12vmin;
+}
